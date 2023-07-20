@@ -39,6 +39,7 @@ public class HomePage {
 	public void enterMobileNumber(String mobNum)
 	{
 		Reporter.log("Entering Mobile Number", true);
+		Reporter.log("Entering Mobile Number.....", true);
 		mobileNumberField.sendKeys(mobNum);
 	}
 	

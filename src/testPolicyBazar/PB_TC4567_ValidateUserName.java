@@ -71,7 +71,7 @@ public class PB_TC4567_ValidateUserName extends Base{
   @AfterMethod
   public void logOutFromPolicuBazar() throws InterruptedException 
   {
-	Utility.waitTime(1000);
+	Utility.waitTime(2000);
 	pro.clickOnLogOutButton();
 	Utility.waitTime(2000);
   }
@@ -80,7 +80,7 @@ public class PB_TC4567_ValidateUserName extends Base{
   public void quiteBrowser() throws InterruptedException 
   {
 	closeBrowser();  
-	Utility.waitTime(2000);
+	Utility.waitTime(3000);
   }
   
   
